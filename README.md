@@ -11,7 +11,6 @@ A sleek, modern, and fully responsive Spotify web application clone built with a
 - *Responsive Design:* Optimized for mobile, tablet, and desktop screens.
 - *Modern UI/UX:* Clean, pixel-perfect layout inspired by the official Spotify web player.
 - *Dynamic Playback:* Smooth play, pause, and track navigation functionality.
-- *Custom Animations:* (Optional: Add this if you used GSAP/Animations) Fluid transitions and custom interaction effects.
 
 ---
 
@@ -20,7 +19,6 @@ A sleek, modern, and fully responsive Spotify web application clone built with a
 *Frontend:*
 - HTML5 & CSS3
 - JavaScript (ES6+)
-- [Add framework if used: e.g., React.js / Vite]
 
 *Design & Assets:*
 - UI/UX inspiration from Spotify
