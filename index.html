@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify app</title>
+    <link rel="stylesheet" href="spotify.css">
+
+</head>
+<style>
+</style>
+
+<body> 
+    <nav>
+        <ul>
+            <li class="brand"> <img src="spotifylogo.png" alt="spotify">spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+        <div>
+            <label for="">Search Songs</label>
+            <input type="text" placeholder="Search">
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="songlist">
+            <h1>Best of Karan Aujla</h1>
+
+            <div class="songitemcont">
+                <div class="songitem">
+                    <img src="" alt="">
+                    <span class="songname">Jo tum mere ho</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="0"
+                                class=" songitemplay fa-regular fa-circle-play"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img src="" alt="">
+                    <span class="songname">Goat</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="1"
+                                class=" songitemplay fa-regular fa-circle-play"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img height="35px" src="" alt="">
+                    <span class="songname">jhool</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="2"
+                                class=" songitemplay fa-regular fa-circle-play"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img src="" alt="">
+                    <span class="songname">Maxico</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="3"
+                                class=" songitemplay fa-regular fa-circle-play"></i></span></span>
+
+                </div>
+                <div class="songitem">
+                    <img src="dont look 2.jpg" alt="">
+                    <span class="songname">Dont look 2</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="4"
+                                class=" songitemplay fa-regular fa-circle-play"></i></span></span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="songbanner">
+            <img class="bg" src="Aujla pic.jpeg" alt="pic">
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" id="myprogressBar" value="0" min="0" max="100">
+
+        <div class="icons">
+
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-2x  fa-backward"></i>
+            <i class="fa-regular fa-2x  fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid fa-2x  fa-forward"></i>
+            <i class="fa-solid fa-2x  fa-forward-step" id="next"></i>
+        </div>
+        <div class="songinfo">
+
+            <img src="playing.gif" id="gif" width="100px" alt=""> <span id="mastersongname"></span>
+            
+
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/d564249019.js" crossorigin="anonymous"></script>
+
+    <script src="spotify.js"></script><i class="fa-solid fa-forward"></i>
+</body>
+
+</html>
