@@ -174,7 +174,7 @@ nav input{
        width: 100%;
        object-fit: cover;
          z-index: 8;
-         margin-left: 20vh;
+         margin-left: 22vh;
 }
 
 
@@ -197,7 +197,7 @@ nav input{
     margin: 10px 10px;
 }
 #myprogressBar{
-    width: 50vh;
+    width: 40vh;
    
 }
 .songinfo{
