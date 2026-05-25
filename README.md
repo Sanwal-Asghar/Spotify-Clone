@@ -2,7 +2,7 @@
 
 A sleek, modern, and fully responsive Spotify web application clone built with a strong focus on high-end UI/UX aesthetics and smooth interactions.
 
-🚀 *[Live Demo Links]* (Add your live link here, e.g., GitHub Pages/Vercel)
+🚀 *[https://sanwal-asghar.github.io/Spotify-Clone/]* (Add your live link here, e.g., GitHub Pages/Vercel)
 
 ---
 
