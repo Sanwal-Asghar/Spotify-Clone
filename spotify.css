@@ -32,9 +32,7 @@ nav{
       background-color: black;
       justify-content: space-between;
       padding: 0 20px;
-    
 }
-
 
 nav ul{
    
@@ -42,7 +40,6 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-   
 }
 nav ul li{
     padding: 0 12px;
@@ -50,7 +47,6 @@ nav ul li{
 .brand img{
     width: 44px;
     padding: 0 8px;
-
 }
 .container{
     min-height: 60vh;
@@ -63,11 +59,9 @@ nav ul li{
     border-radius: 34px;
     padding: 34px;
     position: relative;
-   
 }
 
 .songbanner{
-
       width: 70vh;
       height: 60vh;
       
@@ -75,8 +69,6 @@ nav ul li{
       border-radius: 20px;
       right: 2%;
       overflow: hidden;
-     
-
 }
 .songbanner img{
        height: 100%;
@@ -93,24 +85,21 @@ nav ul li{
     position: sticky;
     height: 130px;
     background-color: black;
-   color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 34px;
-   
 }
 #myprogressBar{
     width: 150vh;
     cursor: pointer;
-   
 }
 .icons{
     margin-top: 30px;
     cursor: pointer;
-    
 }
 .songitem{
     height: 50px;
@@ -124,11 +113,9 @@ nav ul li{
     border-radius: 30px;
 }
 .songitem img{
-    
     width: 70px;
     margin: 0 23px;
     border-radius: 50px;
-    
 }
 .timestamp{
     margin: 0 23px;
@@ -144,7 +131,6 @@ nav ul li{
     gap: 10px;
     align-items: center;
     font-family: sans-serif;
-    
 }
 .songinfo img{
     opacity: 0;
@@ -158,31 +144,37 @@ nav ul li{
 }
 
   nav{
-  width: 175%;
+  width: 108%;
+   height: 70px;
   justify-content: space-around;
+  padding: 0 10px;
 }
 .brand img{
-    width: 60px;
-    padding: 5px 8px;
-
+    width: 30px;
+    padding: 5px 4px;
 }
 
+nav label{
+    display: none;
+}
+nav input{
+        width: 15vh;
+}
 .container{
-    margin: 30px 25px;
-    min-height: 70vh;
+    margin: 10px 10px;
+    height: 72vh;
     background-color: rgb(0, 0, 0);
     color: white;
     display: flex;
-    width: 170%;
+    width: 100%;
     position: relative;
-   
 }
 .songbanner img{
        height: 100%;
        width: 100%;
        object-fit: cover;
          z-index: 8;
-         
+         margin-left: 20vh;
 }
 
 
@@ -192,21 +184,20 @@ nav ul li{
 
 .songitem{
     height: 65px;
-    margin: 20px -9px;
+    margin: 12px -38px;
    
+}
+.songitemcont{
+    margin: 20px;
 }
 
 .bottom{
-   
-    height: 130px;
-    width: 170%;
-    margin: 36px 23px;
-  
-    
-   
+    height: 100px;
+    width: 100%;
+    margin: 10px 10px;
 }
 #myprogressBar{
-    width: 90vh;
+    width: 50vh;
    
 }
 .songinfo{
@@ -217,6 +208,8 @@ nav ul li{
     align-items: center;
     font-family: sans-serif;
     color: rgb(7, 192, 19);
-    
+}
+.songinfo img{
+    width: 10vh;
 }
 }
